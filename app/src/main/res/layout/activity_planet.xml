@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page4"
+    tools:context=".PlanetActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLANETS"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="30sp"/>
+
+    <TextView
+        android:id="@+id/textViewTitle6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hai kids, let's learn planet together"
+        android:textSize="14sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_below="@id/textViewTitle5"/>
+
+</RelativeLayout>

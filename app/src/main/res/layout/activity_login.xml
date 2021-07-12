@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/teal_200">
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:layout_marginTop="400sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:hint="password"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="80sp"
+        android:backgroundTint="#FF5F3D"
+        android:layout_marginTop="30sp"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:cornerRadius="30sp" />
+
+</LinearLayout>

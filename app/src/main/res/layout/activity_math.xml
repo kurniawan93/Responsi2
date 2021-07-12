@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MathActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PENGURANGAN"
+        android:textSize="20sp"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="30sp"/>
+
+
+    <TextView
+        android:id="@+id/textViewTitle6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="300sp"
+        android:layout_marginRight="30sp"
+        android:text="100 - 40 ="
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonTambah"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle6"
+        android:layout_marginLeft="230sp"
+        android:layout_marginTop="-35sp"
+        android:backgroundTint="#FF5F3D"
+        android:text="60"
+        app:cornerRadius="20sp" />
+
+    <Button
+        android:id="@+id/buttonKurang"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle6"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="-35sp"
+        android:layout_toRightOf="@+id/buttonTambah"
+        android:backgroundTint="#FF5F3D"
+        android:text="50"
+        app:cornerRadius="20sp" />
+
+    <LinearLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:layout_below="@id/buttonTambah"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="30sp"
+        android:orientation="vertical" />
+
+
+</RelativeLayout>

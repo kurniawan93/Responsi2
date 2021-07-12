@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/buttonStarted"
+        android:layout_width="250sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="80sp"
+        android:backgroundTint="#FF5F3D"
+        android:text="GET STARTED"
+        android:textSize="20sp"
+        app:cornerRadius="30sp"/>
+
+    <TextView
+        android:id="@+id/textViewTitle6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copyright : Stevi Ema Wijayanti - 2021"
+        android:textColor="#FF5F3D"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:gravity="center"
+        android:layout_gravity="bottom"/>
+</FrameLayout>

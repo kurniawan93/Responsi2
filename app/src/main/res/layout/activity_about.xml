@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page5"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="360sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewTitle6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This application is an educational application for children. In this children's educational application, it has features to learn numbers, count, learn colors and planets."
+        android:textSize="14sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_below="@id/textViewTitle5"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewTitle7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="30sp"
+        android:gravity="center"
+        android:layout_below="@id/textViewTitle6"/>
+
+    <ImageButton
+        android:id="@+id/imageButtonCall"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:background="@drawable/call1"
+        android:layout_below="@id/textViewTitle7"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="55sp"
+        android:layout_marginRight="30sp"/>
+
+    <ImageButton
+        android:id="@+id/imageButtonLocation"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:background="@drawable/location1"
+        android:layout_below="@id/textViewTitle7"
+        android:layout_toRightOf="@id/imageButtonCall"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"/>
+
+    <ImageButton
+        android:id="@+id/imageButtonWeb"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:background="@drawable/web1"
+        android:layout_below="@id/textViewTitle7"
+        android:layout_toRightOf="@id/imageButtonLocation"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"/>
+
+    <TextView
+        android:id="@+id/textViewTitle8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copyright : Stevi Ema Wijayanti - 2021"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:gravity="center"
+        android:layout_below="@id/imageButtonCall"/>
+
+</RelativeLayout>
